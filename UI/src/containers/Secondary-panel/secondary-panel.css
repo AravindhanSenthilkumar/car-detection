@@ -1,0 +1,90 @@
+.parent-container{
+    padding-top: unset!important;
+    padding-bottom: unset!important;
+    padding-left: unset!important;
+    padding-right: unset!important;
+}
+
+.middle-grid{
+    height: 430px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px !important;
+}
+
+.grid-right-section-inner-container{
+    padding: 15px 0px;
+    height: 96%;
+}
+
+.grid-right-section{
+    width: 100%;
+}
+
+.cards-section .MuiBox-root{
+    background-color: #ffffff!important;
+    width: 100%;
+}
+
+.cards-section .MuiBox-root .MuiCardContent-root:hover{
+    border: 1px solid #0952c8;
+    background: #d3e3fd;
+    cursor: pointer;
+}
+
+.cards-section .MuiBox-root .MuiPaper-root{
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.scrollable {
+    width: 100%;
+    height: 390px;
+    overflow-y: auto;
+}
+
+.trained-title{
+    padding: 0px 20px;
+}
+
+.cards-section{
+    padding: 0px 20px;
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+
+.grid-left-bottom-section{
+    border-top:1px solid #cccccc;
+    padding:13px;
+    border-bottom-right-radius: 8px !important;
+    text-align: right;
+    height: 38px;
+}
+
+.grid-left-botton-container{
+    width: 100%;
+}
+
+.models-section{
+    height: 338px!important;
+}
+
+.waiting-for-image{
+    padding: 146px 0px;
+    height: 172px;
+}
+
+.waiting-for-image  .MuiBox-root{
+    color: #000 !important;;
+    background-color: #ffffff!important;
+}
+
+.pre-trained-model{
+    width: 100%;
+}
+
+.individual-card{
+    width: 100%;
+}

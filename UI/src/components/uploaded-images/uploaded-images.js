@@ -1,0 +1,1 @@
+import './uploaded-images.css';

@@ -1,0 +1,116 @@
+.background{
+    padding: 40px 60px;
+}
+.tab-content .MuiBox-root{
+    padding: unset;
+}
+
+.background .MuiBox-root{
+    background-color: #8381c2;
+    border-top-left-radius: 8px;
+    color:#ffffff
+}
+
+.background .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color:#ffffff;
+    font-weight:600;
+}
+
+.unset-border-radius{
+    border-top-left-radius: unset!important;
+    border-top-right-radius: unset!important;
+    border-bottom-right-radius: unset!important;
+    border-bottom-left-radius: unset!important;
+}
+
+.gallery-title-section{
+    padding: 13.5px 20px;
+    background-color: #8381c2;
+    border-top-right-radius: 8px;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+
+.grid-left-section-image-container{
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scrollable {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.grid-left-bottom-section{
+    border-top:1px solid #cccccc;
+    padding:13px;
+    border-bottom-right-radius: 8px !important;
+}
+
+.grid-left-bottom-section-browse-button{
+   display:none
+}
+
+.grid-left-section-image-section button{
+    position: absolute;
+    top: -8%;
+    right: -8%;
+    border-radius: 30px;
+    border: 1px solid #ffb4b4;
+    width: 8px;
+    height: 8px;
+    padding: 8px;
+    background: red;
+    color: #ffffff;
+}
+
+.grid-left-section-image-section button:hover{
+    background: red;
+    color: #ffffff;
+}
+
+.grid-left-section-image-section svg{
+    height: 10px;
+    width: 10px;
+}
+
+.grid-left-section-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.grid-left-section{
+    height: 397px;
+    padding: 20px 0px;
+}
+
+.grid-left-section-image-section{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 15px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.grid-left-section-image-section:hover{
+    border: 1px solid #0952c8;
+    background: #d3e3fd;
+    cursor: pointer;
+}
+
+.gallery-section{
+    border-top-right-radius: 8px!important;
+}
+
+.grid-left-bottom-section .MuiStack-root{
+    justify-content: right;
+}
+
+.btn-bg{
+    background-color: #8381c2 !important;
+}
+
